@@ -1,11 +1,11 @@
-#!/usr/bin/python3
+# -*- coding: UTF-8 -*-
+'''for i in range(1,5):
+    for j in range(1,5):
+        for k in range(1,5):
+            if (i!=k)and(i!=j)and(k!=j):
+                print (i,j,k)'''
 
-# 定义函数
-def printme( str ):
-   "打印任何传入的字符串"
-   print (str)
-   return
-
-# 调用函数
-printme("我要调用用户自定义函数!")
-printme("再次调用同一函数")
+num1 = input('1: ')
+num2 = input('2: ')
+sum = float(num1) + float(num2)
+print('数字 {0} 和 {1} 相加结果为： {2}'.format(num1, num2, sum))
